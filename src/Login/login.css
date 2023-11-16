@@ -1,0 +1,61 @@
+.login {
+  background-image: url("/public/login_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-backround {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(10px) !important;
+}
+.Signup-backround{
+    width: 400px;
+    height: 800px;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px) !important; 
+}
+.loginbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.sign-Up-instead {
+  display: flex;
+  margin-top: 2rem;
+  gap: 0.3rem;
+}
+.sign-Up-span {
+  color: #07ada9;
+}
+.login-Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.Welcome-back{
+    font-size: medium;
+    font-weight:400;
+}

@@ -1,0 +1,27 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.Header > div {
+  display: flex;
+  align-items: center;
+}
+
+.Header > div > span {
+  margin-left: 2rem;
+}
+.HeaderButton {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  color: black !important;
+  font-size: larger;
+  font-weight: bold;
+}
+.HeaderRouter{
+  font-size: larger;
+  font-weight: bold;
+}
